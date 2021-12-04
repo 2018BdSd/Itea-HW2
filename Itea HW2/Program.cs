@@ -77,7 +77,7 @@ namespace HW2
 
             Console.WriteLine("\n" + Task4(1, 6, 9));
 
-            Console.WriteLine("\n" + Task5(67));
+            Console.WriteLine("\n" + Task5(67));///
         }
     }
 }
