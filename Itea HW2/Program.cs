@@ -121,7 +121,7 @@ namespace HW2
             int a = -1;
             int b = 43;
             int c = 100;
-
+            
             Task3(ref a, ref b, ref c);
             Console.WriteLine("\n" + $"{a},{b},{c}");
 
