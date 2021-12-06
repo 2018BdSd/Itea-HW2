@@ -16,7 +16,7 @@ namespace HW2
             {
                 result = a * b;
             }
-            else 
+            else
             {
                 result = a - b;
             }
@@ -26,7 +26,7 @@ namespace HW2
 
         static string Task2(int x, int y)
         {
-            string n="lies on axis";
+            string n = "lies on axis";
 
             if (x > 0 && y > 0)
             {
@@ -64,14 +64,14 @@ namespace HW2
             }
         }
 
-        static (double,double) Task4(double a, double b, double c)
+        static (double, double) Task4(double a, double b, double c)
         {
             double X1;
             double X2;
 
             double d = b * b - 4 * a * c;
 
-            if (d>=0)
+            if (d >= 0)
             {
                 X1 = Math.Round((-b + Math.Sqrt(d)) / 2 * a, 3);
                 X2 = Math.Round((-b - Math.Sqrt(d)) / 2 * a, 3);
@@ -94,15 +94,15 @@ namespace HW2
             string[] Array3 = { "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" };
 
             int b = number % 10;
-            int a = number/ 10;
+            int a = number / 10;
 
             if (number > 10 && number < 20)
             {
-                result=Array2[number - 11];
+                result = Array2[number - 11];
             }
             else if (b == 0)
             {
-                result=Array3[a - 1];
+                result = Array3[a - 1];
             }
             else
             {
@@ -121,13 +121,13 @@ namespace HW2
             int a = -1;
             int b = 43;
             int c = 100;
-            
+
             Task3(ref a, ref b, ref c);
             Console.WriteLine("\n" + $"{a},{b},{c}");
 
             (double, double) result = Task4(5, 3, 7);
             Console.WriteLine("\n" + result);
-  
+
             Console.WriteLine("\n" + Task5(11));
             Console.WriteLine("\n" + Task4(1, 6, 9));
 
