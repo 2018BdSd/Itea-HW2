@@ -125,10 +125,14 @@ namespace HW2
             Task3(ref a, ref b, ref c);
             Console.WriteLine("\n" + $"{a},{b},{c}");
 
+<<<<<<< HEAD
             (double, double) result = Task4(5, 3, 7);
             Console.WriteLine("\n" + result);
   
             Console.WriteLine("\n" + Task5(11));
+=======
+            Console.WriteLine("\n" + Task5(67));
+>>>>>>> a4df2607043b74d879595231d4a19f8dbfac3954
         }
     }
 }
