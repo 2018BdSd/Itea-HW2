@@ -24,25 +24,25 @@ namespace HW2
             return result;
         }
 
-        static string Task2(int x, int y)
+        static int Task2(int x, int y)
         {
-            string n = "lies on axis";
+            int n = 0;
 
             if (x > 0 && y > 0)
             {
-                n = "Quarte 1";
+                n = 1;
             }
             else if (x < 0 && y > 0)
             {
-                n = "Quarte 2";
+                n = 2;
             }
             else if (x < 0 && y < 0)
             {
-                n = "Quarte 2";
+                n = 3;
             }
             else if (x > 0 && y < 0)
             {
-                n = "Quarte 4";
+                n = 4;
             }
 
             return n;
@@ -116,7 +116,7 @@ namespace HW2
         {
             Console.WriteLine(Task1(-2, 2));
 
-            Console.WriteLine("\n" + Task2(0, -2));
+            Console.WriteLine("\n" + Task2(1, -2));
 
             int a = -1;
             int b = 43;
